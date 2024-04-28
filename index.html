@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Website | Jordan Wauran</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <nav>
+      <div class="nav-logo">
+        <a href="#">
+          <img src="images/logo1.png">
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="link"><a href="#">Home</a></li>
+        <li id="link1" class="link"><a href="#">Personal Projects</a></li>
+        <li id="link2" class="link"><a href="#">About</a></li>
+      </ul>
+      <a href="mailto:jordanwauran@gmail.com"><button class="btn">E-mail Me</button></a>
+
+    </nav>
+
+    <header class="container">
+      <div class="content">
+        <H4>Hi, my name is</H4>
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <H1>Jordan Wauran<br>
+        <cut>I build web applications</cut></H1>
+          <p>I am a recent graduate of Simon Fraser University 
+            with a degree in Applied Sciences, eager to kickstart my career as a 
+            software engineer. Armed with a strong academic background and a passion for 
+            coding, I am excited to apply my skills and knowledge in a professional setting. 
+            I am seeking opportunities that will allow me to grow and develop as a software 
+            engineer while contributing to innovative projects.
+          </p>
+          <button class ="btn" onclick="downloadPDF()">My Resume</button>
+      </div>
+    </header>
+
+    <section class="container">
+      <h2 class="header">Personal Projects</h2>
+      <div class="features">
+        <div class="card">
+          <span><i class="ri-gamepad-line"></i></span>
+          <h4>Plinko</h4>
+          <p>
+            A web based Plinko game using HTML, CSS, and JavaScript, enhanced with p5.js
+            and Matter.js libraries for interactive physics simulations.
+            
+          </p>
+          <a href="https://jordanwauran.github.io/plinko/">View <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="card">
+          <span><i class="ri-graduation-cap-line"></i></span>
+          <h4>SFUnited Application</h4>
+          <p>
+            A comprehensive web application integrating MySchedule, Rate My Professor,
+            Google Maps and SFSS Club Finder functionalities into a unified platform for Simon Fraser University
+            students.
+          </p>
+          <a href="https://www.youtube.com/watch?v=8fcIq5zh9bk&list=PLDBEjMLFY7EfpZzVnBkPFGBUERF-9_mEQ&index=3">View <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="header">About Me</h2>
+      <div class="about">
+      <p>
+        I am a dedicated and enthusiastic software engineer with a 
+        strong foundation in Applied Sciences, having recently graduated from Simon Fraser 
+        University. My passion for coding and problem-solving drives me to constantly seek out 
+        new challenges and innovative solutions. With a solid background in front-end and back-end 
+        development, as well as database management, I am excited to embark on my journey as a 
+        software engineer. I am eager to leverage my skills and knowledge to contribute to 
+        impactful projects and collaborate with talented teams in the tech industry. <br><br><br>
+
+        In my free time I enjoy playing sports and exercising as well as producing music mixes that I 
+        post on my SoundCloud.
+      </p>
+      </div>
+    </section>
+
+
+    <footer class="container">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <div class="footer-things">
+        <div class="logo">
+          <img src="images/logo1.png">
+        </div>
+        <div class="footer-links">
+          <ul onclick="window.location='https://www.linkedin.com/in/jordanwauran/'"><i class="ri-linkedin-line"></i></ul>
+          <ul onclick="window.location='https://www.github.com/jordanwauran/'"><i class="ri-github-line"></i></ul>
+        </div>
+      </div>
+    </footer>
+    
+
+
+	<script src="index.js"></script>
+
+  </body>
+</html>
