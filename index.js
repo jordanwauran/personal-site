@@ -23,5 +23,5 @@ link1.addEventListener('click', () => {
 })
 
 link2.addEventListener('click', () => {
-    scrollToElement('.footer-things');
+    scrollToElement('.second');
 })
